@@ -57,17 +57,14 @@ $result = $result[0];
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto me-lg-5">
                     <li class="nav-item">
-                        <a class="nav-link  ms-2 mt-3 text-uppercase text-white" href="#">desktops</a>
+                        <a class="nav-link  ms-2 mt-3 text-uppercase text-white" href="http://www.bnopone.dk/Rock_finder">desktops</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link ms-2 mt-3 text-uppercase text-white" href="#">skærme</a>
+                        <a class="nav-link ms-2 mt-3 text-uppercase text-white" href="http://www.bnopone.dk/Replay_tilbehør">tilbehør</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-2 mt-3 text-uppercase text-white" href="index.html">tilbehør</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ms-2 mt-3  mb-2 text-uppercase text-white" href="#">support</a>
+                        <a class="nav-link ms-2 mt-3  mb-2 text-uppercase text-white" href="https://ømertekbas.dk/Replay/support.php">support</a>
                     </li>
 
                 </ul>
@@ -200,9 +197,8 @@ $result = $result[0];
             <div class="col-sm-12 col-md-3 col-lg-3 m-3 m-md-0">
                 <h5 class="fotover mb-2 text-white">Produkter</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="footer-link p-0 text-decoration-none text-white">Desktops</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="footer-link p-0 text-decoration-none text-white">Skærme</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="footer-link p-0 text-decoration-none text-white">Tilbehør</a></li>
+                    <li class="nav-item mb-2"><a href="http://www.bnopone.dk/Rock_finder" class="footer-link p-0 text-decoration-none text-white">Desktops</a></li>
+                    <li class="nav-item mb-2"><a href="http://www.bnopone.dk/Replay_tilbehør" class="footer-link p-0 text-decoration-none text-white">Tilbehør</a></li>
                 </ul>
             </div>
 
