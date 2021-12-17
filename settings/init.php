@@ -1,11 +1,11 @@
 <?php
 require "classes/classDB.php";
 
-define("CONFIG_LIVE", "0"); // 0: Test enviroment || 1: Live enviroment
+const CONFIG_LIVE = "0"; // 0: Test enviroment || 1: Live enviroment
 
 if(CONFIG_LIVE == 0){
     $DB_SERVER = "localhost";
-    $DB_NAME = "tilbehør";
+    $DB_NAME = "tilbehor";
     $DB_USER = "root";
     $DB_PASS = "";
 }else{

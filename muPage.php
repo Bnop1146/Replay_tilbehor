@@ -64,7 +64,7 @@ $result = $result[0];
                         <a class="nav-link ms-2 mt-3 text-uppercase text-white" href="#">skærme</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-2 mt-3 text-uppercase text-white" href="#">tilbehør</a>
+                        <a class="nav-link ms-2 mt-3 text-uppercase text-white" href="index.html">tilbehør</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link ms-2 mt-3  mb-2 text-uppercase text-white" href="#">support</a>
@@ -88,59 +88,60 @@ $result = $result[0];
 
 
 
-    <form class="" method="post" action="insert.php" enctype="multipart/form-data">
-        <div class="row">
+<form class="" method="post" action="insert.php" enctype="multipart/form-data">
+    <div class="row">
 
 
-            <div class="col-sm-6 text-white box-shadow">
-                <img src="uploads/<?php echo $result->muPicture; ?>" class="mx-auto d-block rounded"
-                     width="275"
-                     height="275" alt="">
-            </div>
-            <div class="col-sm-6 " id="detail">
+        <div class="col-sm-6 text-white box-shadow">
+            <img src="uploads/<?php echo $result->muPicture; ?>" class="mx-auto d-block rounded"
+                 width="300"
+                 height="300" alt="">
+        </div>
+        <div class="col-sm-6 " id="detail">
 
-                <h1 class="mb-3"><b><?php echo $result->muTrack; ?></b></h1>
-                <h5 class="fw-bold mb-3">
-                    <p>Pris
+            <h1 class="mb-3"><b><?php echo $result->muTrack; ?></b></h1>
+            <h5 class="fw-bold mb-3">
+                <p>Pris
                     <small class="text-muted"> :
                         <?php echo $result->muArtist; ?> kr/md
                     </small>
-                    </p>
-                </h5>
+                </p>
+            </h5>
 
-                <h5 class="fw-bold ">
-                    <p>Specs</p>
-                    <p>
-                        <small class="text-muted">
-                            <?php echo $result->muAlbum; ?>
-                        </small>
-                    </p>
-                </h5>
+            <h5 class="fw-bold mb-1 ">
+                <p>Specs</p>
+                <p>
+                    <small class="text-muted">
+                        <?php echo $result->muAlbum; ?>
+                    </small>
+                </p>
+            </h5>
 
-                <h5 class="fw-bold ">
-                    <p>
-                        <small class="text-muted">
-                            <?php echo $result->muGenre; ?>
-                        </small>
-                    </p>
-                </h5>
+            <h5 class="fw-bold mb-1 ">
+                <p>
+                    <small class="text-muted">
+                        <?php echo $result->muGenre; ?>
+                    </small>
+                </p>
+            </h5>
 
-                <h5 class="fw-bold mb-3 ">
-                    <p>
-                        <small class="text-muted">
-                            <?php echo $result->muStyles; ?>
-                        </small>
-                    </p>
-                </h5>
+            <h5 class="fw-bold mb-3 ">
+                <p>
+                    <small class="text-muted">
+                        <?php echo $result->muStyles; ?>
+                    </small>
+                </p>
+            </h5>
 
+            <button type="button" class="btn text-white" style="width: 50%; font-size: x-large" >Køb</button>
 
-
-            </div>
         </div>
+    </div>
 
-        <br>
+    <br>
 
-    </form>
+</form>
+
 
 
 
